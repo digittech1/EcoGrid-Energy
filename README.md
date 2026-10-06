@@ -25,3 +25,13 @@ This local prototype uses a single SQLite database and synchronous calls. A prod
 
 ## Security
 Do not commit credentials, real payment details, customer data, or local `.db` files. Use test-only data.
+
+### EcoGrid Energy – Core System Services
+### 1. Marketplace Service
+The Marketplace Service enables users to create, manage, and monitor peer-to-peer renewable energy trades. It supports electricity trading requests, matches energy buyers with sellers, and maintains transaction records.
+### 2. Smart Meter Integration Service
+The Smart Meter Integration Service collects and validates electricity generation and consumption readings from connected smart meters. It verifies energy delivery, detects invalid readings, and provides accurate measurement data for transaction processing.
+### 3. Financial Settlement Service
+The Financial Settlement Service manages payment processing for completed electricity trades. It calculates settlement amounts, tracks payment status, prevents duplicate transactions through idempotency controls, and supports recovery from payment failures.
+### Service Integration
+The three services work together to provide a reliable renewable energy trading platform. The Marketplace Service initiates trades, Smart Meter Integration verifies electricity delivery, and Financial Settlement processes the corresponding payments. This architecture supports modular development, transaction consistency, and system resilience.
