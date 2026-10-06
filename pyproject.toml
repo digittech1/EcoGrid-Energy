@@ -1,0 +1,8 @@
+[project]
+name = "ecogrid-energy-demo"
+version = "0.1.0"
+description = "Educational renewable-energy trading workflow prototype"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["marketplace*", "smart_meter*", "settlement*", "shared*"]
