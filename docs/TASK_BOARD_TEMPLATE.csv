@@ -1,0 +1,6 @@
+Task,Owner,Status,Priority,Acceptance criteria
+Create marketplace trade workflow,Member 1,Backlog,High,Create and retrieve synthetic trade
+Define API interfaces,Member 2,Backlog,High,Document request and event contracts
+Add meter event validation,Member 3,Backlog,High,Reject conflicting duplicate event IDs
+Document collaboration workflow,Member 4,Backlog,Medium,Provide accurate task and PR evidence
+Add CI checks,Member 5,Backlog,Medium,Tests run on pull requests
